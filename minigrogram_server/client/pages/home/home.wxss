@@ -1,0 +1,36 @@
+/* pages/home/home.wxss */
+.image-avatar {
+    width: 160rpx;
+    height: 160rpx;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.flex-wrp{
+    height: 100px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+ .flex-row{
+    flex-direction:row;
+    flex-wrap:wrap;
+ }
+ .flex-item{
+    width: 100px;
+    height: 100px;
+}
+.bc_green{
+    background-color: #09BB07;
+ }
+ .bc_red{
+    background-color: #F76260;
+ }
+ .bc_blue{
+    background-color: #10AEFF;
+ }
+ .bc_yellow{
+    background-color: #FFBE00;
+ }
+ .bc_gray{
+    background-color: #C9C9C9;
+ }

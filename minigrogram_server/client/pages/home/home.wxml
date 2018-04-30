@@ -1,0 +1,17 @@
+<!--home.wxml-->
+<!-- 水平排列布局 -->
+<view class="flex-wrp flex-row">
+    <view class="flex-item">
+      <image class="image-avatar" src="../../image/location.png" bindtap='openMap'></image>
+      </view>
+    <view class="flex-item">
+      <navigator url="../../pages/phone/phone">
+       <image class="image-avatar" src="../../image/phone.png" style='width: 130rpx;height: 130rpx;margin-left: 15%; margin-top: 13%;'></image>
+       </navigator>
+    </view>
+    <!--
+    <view class="flex-item">
+       <image class="image-avatar" src="../../image/saoyisao.png" bindtap='saoyisao'></image>
+    </view>
+    -->
+</view>

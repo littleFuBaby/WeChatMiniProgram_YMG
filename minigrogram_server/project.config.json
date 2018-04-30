@@ -1,0 +1,61 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx5e20da949b308872",
+	"projectname": "minigrogram_server",
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "demo",
+					"widgetData": "",
+					"service": {
+						"box_type": 10000,
+						"wording": "Demo",
+						"query_item": [
+							{
+								"query": "00700",
+								"box_qi": "{\"type\":10000,\"slot_list\":[{\"key\":\"stock_code\",\"value\":\"00700\"},{\"key\":\"stock_market\",\"value\":\"hk\"}]}"
+							},
+							{
+								"query": "腾讯股价",
+								"box_qi": "{\"type\":10000,\"slot_list\":[{\"key\":\"stock_code\",\"value\":\"00700\"},{\"key\":\"stock_market\",\"value\":\"hk\"}]}"
+							},
+							{
+								"query": "Goog",
+								"box_qi": "{\"type\":10000,\"slot_list\":[{\"key\":\"stock_code\",\"value\":\"GOOG\"},{\"key\":\"stock_market\",\"value\":\"us.OQ\"}]}"
+							}
+						]
+					},
+					"query": "00700",
+					"customQuery": "",
+					"debugUrl": "",
+					"boxQI": "{\"type\":10000,\"slot_list\":[{\"key\":\"stock_code\",\"value\":\"00700\"},{\"key\":\"stock_market\",\"value\":\"hk\"}]}"
+				}
+			]
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}
